@@ -15,7 +15,7 @@ int main()
             On printing id will convert it in int
             Similary subjects will convert it in int
             for favchar datatype is already char so 'a' will be printed
-    *?
+    */
 
 
     union Student s1;
