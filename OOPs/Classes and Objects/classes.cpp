@@ -4,7 +4,7 @@ using namespace std;
 
 class Employee
 {
-    private:
+    private:                        // if we don't specify the scope then by default the scope is private
         int accountID;
         float salary;
     public:
