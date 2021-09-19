@@ -23,6 +23,8 @@ class Complex{
             - It should be declared in public scope of class.
             - They are invoked automatically whenever an object is created.
             - Constructors don't have a return type
+            - It can have default arguments
+            - We cannot refer to address of their arguments
 
 
         */ 
@@ -36,6 +38,10 @@ Complex:: Complex(int a, int b)
 
 int main()
 {
+    // Implicit call
+    Complex c1(1,2);
+    c1.printData();
+    // Explicit call
     Complex c = Complex(1,2);
     c.printData();
     return 0;
