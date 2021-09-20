@@ -1,6 +1,15 @@
 #include<iostream>
 using namespace std;
 
+/*
+    Inheritance:
+                                Public derivation       Private derivation      Protected derivation
+    Private members               Not inherited             Not inherited           Not inherited
+    Protected members               Protected               Private                 Protected
+    Public memebers                 Public                  Private                 Protected
+
+*/
+
 class Base
 {
     protected:
