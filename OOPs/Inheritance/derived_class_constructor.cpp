@@ -21,8 +21,35 @@ using namespace std;
     }
 */
 
+class Base
+{
+    protected:
+        int a;
+    public:
+        Base()
+        {
+            a = 7;
+        }
+
+};
+
+class Derived : public Base
+{
+    int d;
+    public:
+        Derived() : Base()
+        {
+            d =6;
+        }
+        void printData()
+        {
+            cout<<"a is: "<<a<<"d is: "<<d<<endl;
+        }
+};
+
 int main()
 {
-    
+    Derived obj1;
+    obj1.printData();
     return 0;
 }
