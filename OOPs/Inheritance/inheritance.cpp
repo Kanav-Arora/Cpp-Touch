@@ -10,6 +10,12 @@ using namespace std;
             Animal -> Mammal -> Human
         - Hierarchical Inheritance
             One parent class has multiple sub classes
+                                A
+                                |
+                          ______ ______
+                         |             |
+                         B             C
+                         
         - Hybrid Inheritance
             Combination of multiple and multilevel inheritance
                                 A
