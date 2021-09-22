@@ -100,5 +100,19 @@ int main()
     sort(str19.begin(), str19.end());
     cout<<str19<<endl;
 
+    //* to upper case
+    string str20 = "abcdefghi";
+    transform(str20.begin(), str20.end(), str20.begin(), ::toupper);
+    cout<<str20<<endl;
+
+    //* to lower case
+    string str21 = "ABCDEFGHI";
+    transform(str21.begin(), str21.end(), str21.begin(), ::tolower);
+    cout<<str21<<endl;
+    
+    //* sort in descending order
+    string str22 = "1 2 3 4 5";
+    sort(str22.begin(), str22.end(), greater<int>());
+    cout<<str22<<endl;
     return 0;
 }
