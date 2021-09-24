@@ -17,6 +17,7 @@ struct Employee
     float salary;
     char favchar;
     static int count;
+    Employee(int a);
     void setId(int);
     void setSalary(float);
     void setFavChar(int);
@@ -24,6 +25,11 @@ struct Employee
 };
 
 int Employee::count = 0;
+Employee::Employee(int a)
+{
+    this->id = count;
+    count++;
+}
 void Employee::setId(int id)
 {
     count++;
@@ -47,8 +53,7 @@ void Employee::display()
 
 int main()
 {
-    Employee harry; // Unlike C, in C++ we don't need to use struct before variable declaration
-    harry.setId(1);
+    Employee harry(1); // Unlike C, in C++ we don't need to use struct before variable declaration
     harry.setSalary(1000);
     harry.setFavChar('a');
     harry.display();
