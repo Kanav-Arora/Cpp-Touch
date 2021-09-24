@@ -9,6 +9,12 @@ using namespace std;
 
         - In C++, struct can have static data members
         - Static data members in C++ need to be initialized outside of the struct
+        - In C, structures cannot have constructor. But in C++, structures can have constructor.
+        - In C, sizeof(<ObjectOfStructure>) if empty return 0, but in C++ it returns 1
+        - Unlike C, C++ allows data hiding.
+        - Unlike C, in c++ we can use access modifiers in structures.
+        
+
 */
 
 struct Employee
