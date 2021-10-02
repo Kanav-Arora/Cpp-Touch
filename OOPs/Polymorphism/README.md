@@ -22,3 +22,20 @@ Rules for virtual functions:
 - If a virtual function is defined in a base class, there is no necessity of redefining it in a derived class.
 - If virtual function is not redefined in derived class, it will be invoked in base class
             
+
+## Abstract Base Class and Pure Virtual Function
+
+Pure Virtual Function:
+
+So in virtual function 
+    if derived class does not override the virtual function then base class function will be called
+
+    But with pure virtual function we are creating a condition that derived classes must override the virtual function
+
+    This means that the class with pure virtual function is made to be inherited.
+
+
+Note:
+
+- We cannot create object of Abstract Class
+- Abstract class have atleast one virtual function
