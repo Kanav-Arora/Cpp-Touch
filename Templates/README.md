@@ -38,3 +38,18 @@ Using templates:
     vector<float> myfVec(ptr);
 
 ```
+
+
+## Template with multiple parameters
+
+```
+
+template<class T1, class T2>
+
+class {{classname}}
+{
+    // body of class   
+}
+
+
+```
