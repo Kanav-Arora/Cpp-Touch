@@ -71,3 +71,8 @@ Components of STL:
     Handled just like pointers
 
     Connects algo with containers
+
+
+## Vector
+
+Now array are of fixed size whereas vector change its size automatically
