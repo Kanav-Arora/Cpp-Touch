@@ -75,4 +75,6 @@ Components of STL:
 
 ## Vector
 
+They are stored in contiguous storage so that they can be accessed and traversed using iterators.
+
 Now array are of fixed size whereas vector change its size automatically
