@@ -48,6 +48,23 @@ int main()
     display(vec5);
     
 
+    vec5.assign(2,10);          // clear the existing values and and new values    
+    display(vec5);
+
+    vec5.insert(vec5.begin(), 2, 3);
+    display(vec5);
+
+    vec5.erase(vec5.begin());
+    cout<<"Vector 5:"<<endl;
+    display(vec5);
+    cout<<"Vector 1:"<<endl;
+    display(vec1);
+
+    vec1.swap(vec5);
+    cout<<"Vector 5:"<<endl;
+    display(vec5);
+    cout<<"Vector 1:"<<endl;
+    display(vec1);
     
     return 0;
 }
