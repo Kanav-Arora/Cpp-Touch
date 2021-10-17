@@ -51,8 +51,23 @@ int main()
     ls.remove(9);               // remove all the occurrences of that element
     print(ls);
 
-    
+    ls.clear();
+    print(ls);    
 
+    ls.push_back(5);
+    ls.push_back(1);
+    ls.push_back(2);
+    ls.push_back(3);
+    ls.push_back(4);
+
+    // Sorting of list
+
+    ls.sort();
+    print(ls);
+    ls.reverse();
+    print(ls);
+
+    // ls.merge(ls1);           -           merge lists
 
     return 0;
 }
